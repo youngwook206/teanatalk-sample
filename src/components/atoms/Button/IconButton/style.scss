@@ -1,0 +1,28 @@
+._at_icon_button_div{
+  position: relative;
+  width:29px;
+  height:29px;
+  font-size:18px;
+  border-radius: 30px;
+  border:1px solid #ddd;
+  color:#444;
+  ._button_div{
+    width:100%;
+    height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    color:inherit;
+    cursor: pointer;
+    z-index:100;
+    ._icon{}
+  }
+  ._dim{
+    width:100%;
+    height:100%;
+    background-color: #eee;
+    position: absolute;
+    border-radius: inherit;
+    opacity: .7;
+    top:0;
+    z-index:101;
+  }
+}

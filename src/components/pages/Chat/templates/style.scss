@@ -1,0 +1,14 @@
+.frame_set{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  ._container{
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    position: relative;
+    overflow:hidden;
+    color:#333;
+    font-size:13px;
+  }
+}
